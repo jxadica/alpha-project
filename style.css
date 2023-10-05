@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.part1-top-img{
+    width:112px;
+    height:66px;
+}
+.s-container{
+    width:85%;
+    margin: auto;
+    padding-top: 21px;
+}
+.header-info{
+    margin-top: 95px;
+    display: flex;
+    font-size:20px;
+    font-weight: 400;
+    width:40%;
+    justify-content: space-between;
+}
+.part1-title{
+    width:628px;
+    height: 190px;
+    font-size:79px;
+    font-weight:700;
+    margin-top:29px;
+    font-family: 'Roboto Slab', serif;
+    line-height: 81.1px;
+    margin-bottom: 17px;
+}
+.body-text p{
+    font-size: 20px;
+    font-weight:400;
+    line-height: 30px;
+}
+.body-img img{
+    width:400px;
+    height:366px;
+}
+.first-part-body{
+    display: flex;
+    justify-content: space-between;
+    width:88%;
+    margin-bottom:70px;
+}
+.first-part-bottom{
+    width:80%;
+}
+.content-card{
+    width:490px;
+    height:200px;
+    background-color: #1e4681;
+    margin: auto;
+    color:white;
+    font-size: 25px;
+    font-weight: 400;
+    padding:19px 26px 65px;
+    font-family: 'Roboto Slab', serif;
+    border-radius: 3px;
+}
+.author{
+    text-align: end;
+    margin-top:12px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.text-block{
+    display: block;
+}
+.part2-container{
+    padding: 80px 0;
+}
+.info span{
+    font-size: 20px;
+    font-weight: 400;
+}
+.info img{
+    width: 22px;
+    height: 22px;
+}
+.part01-container{
+   margin-bottom: 30px;
+}
+
+/* <---------> */
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+}
+.part2-content-image img{
+    width:350px;
+    height:315px;
+}
+
+.text-content{
+    width:51.3%;
+    font-size: 24px;
+    font-weight: 400;
+}
+.part2-content-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:80%;
+    margin-top:90px;
+}
+.part2-content-bottom span{
+    font-size: 25px;
+    font-weight: 700;
+}
+.part2-content-bottom img{
+    width:232px;
+    height:203px;
+}
+.card p{
+    font-size:18px;
+    font-weight: 400;
+}
+.part2-container h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 45px;
+    font-weight:700;
+    width:365px;
+    height:93px;
+}
+@media  screen and (min-width:992px) and (max-width:1280px) {
+    .part1-top-img{
+        width:64px;
+        height:38px;
+    }
+    .first-part-body{
+        width:80%;
+        margin-bottom:50px;
+    }
+    .info img{
+        width: 14px;
+        height: 14px;
+    }
+    .info span{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .part1-title{
+        font-size:52px;
+        font-weight:700;
+        line-height: 46.6px;
+        width:370px;
+        height: 110px;
+        margin-bottom: 8px;
+    }
+    .body-text p{
+        font-size: 14px;
+        font-weight:400;
+        line-height: 18px;
+    }
+    .header-info{
+        width:35%;
+    }
+    .body-img img{
+        width:200px;
+        height:220px;
+    }
+    .content-card{
+        width:290px;
+        height:120px;
+        background-color: #1e4681;
+        margin: auto;
+        color:white;
+        font-size: 14px;
+        font-weight: 400;
+        padding:15px 13px 40px;
+        font-family: 'Roboto Slab', serif;
+    }
+    .author{
+        margin-top:6px;
+        font-size: 13px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .part2-container h2{
+        font-size: 34px;
+        font-weight:700;
+        width:211px;
+        height:53px;
+    }
+    .text-content{
+        width:57%;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .part2-content-image img{
+        width:200px;
+        height:200px;
+    }
+    .part2-content-bottom img{
+        width:160px;
+        height:140px;
+    }
+    .card p{
+        font-size: 13px;
+        line-height: 14.3px;
+    }
+    .card span{
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 21px;
+    }
+    .part2-content-bottom{
+        width:70%;
+        margin-top:55px;
+    }
+    .content{
+        width:80%;
+    }
+    
+}
+@media  screen and (min-width:320px) and (max-width:991px){
+    .part1-top-img{
+        width:70px;
+        height:40px;
+    }
+    .info img{
+        width: 16px;
+        height: 16px;
+    }
+    .info span{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .part1-title{
+        font-size:37px;
+        font-weight:700;
+        line-height: 37.5px;
+        width:300px;
+        height: 88.5px;
+        margin-top: 8px;
+    }
+    .body-text p{
+        font-size: 10px;
+        font-weight:400;
+        line-height: 15px;
+    }
+    .first-part-body{
+        display: block;
+        width: 95%;
+        margin-bottom:50px;
+    }
+    .header-info{
+        width:80%;
+        margin-top: 40px;
+    }
+    .body-img img{
+        width:140px;
+        height:165px;
+        margin-bottom: 0;
+    }
+    .body-img{
+        text-align: end;
+    }
+    .first-part-bottom{
+        width:65%;
+    }
+    .content-card{
+        width:215px;
+        height:93px;
+        background-color: #1e4681;
+        margin: auto;
+        color:white;
+        font-size: 10px;
+        font-weight: 400;
+        padding:12px 11px 30px;
+        font-family: 'Roboto Slab', serif;
+    }
+    .author{
+        margin-top:4px;
+        font-size: 10px;
+        line-height: 13px;
+    }
+    .part2-container h2{
+        font-size: 26px;
+        width:170px;
+        height:43px;
+        line-height: 26px;
+    }
+    .text-content{
+        width:100%;
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 50px;
+    }
+    .content{
+        display: block;
+    }
+    .s-container{
+        width:82%;
+        margin: auto;
+        padding-top: 21px;
+    }
+    .part2-content-bottom img{
+        display: none;
+    }
+    .card span{
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 15.6px;
+    }
+    .card p{
+        font-size: 10px;
+        line-height: 13px;
+    }
+    .part2-content-bottom{
+        width:68%;
+        margin-top:90px;
+        flex-wrap: wrap;
+    }
+    .card{
+        margin-bottom: 15px;
+        width:49%;
+    }
+    .part2-content-image img{
+       width: 146px;
+       height: 146px;
+    }
+    .part2-content-image{
+        width: 100%;
+        text-align: center;
+    }
+    .card p{
+        font-size: 16px;
+        line-height: 14.3px;
+    }
+    .card span{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 19.5px;
+    }
+}
+@media  screen and (min-width:740px) and (max-width:992px)
+{
+    .header-info{
+        width:55%;
+        margin-top: 40px;
+    }
+    .part1-title{
+        font-size:50px;
+        font-weight:700;
+        line-height: 37.5px;
+        width:360px;
+        height: 88.5px;
+        margin-top: 14px;
+    }
+    .body-img img{
+        width:320px;
+        height:250px;
+        margin-bottom: 0;
+    }
+    .info span{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .body-text p{
+        font-size: 18px;
+        font-weight:400;
+        line-height: 15px;
+    }
+    .content-card{
+        width:290px;
+        height:130px;
+        background-color: #1e4681;
+        margin: auto;
+        color:white;
+        font-size: 15px;
+        font-weight: 400;
+        padding:13px 12px 32px;
+        font-family: 'Roboto Slab', serif;
+    }
+    .author{
+        margin-top:0px;
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .part1-top-img{
+        width:90px;
+        height:50px;
+    }
+    .text-content{
+        width:100%;
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .part2-content-image img{
+        width:250px;
+        height:200px;
+    }
+}
+@media  screen and (min-width:530px) and (max-width:740px)
+{
+    .header-info{
+        width:60%;
+        margin-top: 30px;
+    }
+    .part1-title{
+        font-size:42px;
+        font-weight:700;
+        line-height: 37.5px;
+        width:360px;
+        height: 88.5px;
+        margin-top: 14px;
+    }
+    .body-img img{
+        width:320px;
+        height:230px;
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+    .info span{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .info img{
+        width: 13px;
+        height: 13px;
+    }
+    .body-text p{
+        font-size: 15px;
+        font-weight:400;
+        line-height: 15px;
+    }
+    .content-card{
+        width:290px;
+        height:130px;
+        background-color: #1e4681;
+        margin: auto;
+        color:white;
+        font-size: 15px;
+        font-weight: 400;
+        padding:13px 12px 32px;
+        font-family: 'Roboto Slab', serif;
+    }
+    .author{
+        margin-top:5px;
+        font-size: 14px;
+        line-height: 15px;
+    }
+}
+@media  screen and (min-width:321px) and (max-width:529px)
+{
+    .header-info{
+        width:100%;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .part1-title{
+        font-size:40px;
+        font-weight:700;
+        line-height: 37.5px;
+        width:360px;
+        height: 88.5px;
+        margin-top: 14px;
+    }
+    .body-img img{
+        width:280px;
+        height:200px;
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+    .info span{
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .info img{
+        width: 13px;
+        height: 13px;
+    }
+    .body-text p{
+        font-size: 14px;
+        font-weight:400;
+        line-height: 15px;
+    }
+    .content-card{
+        width:270px;
+        height:110px;
+        background-color: #1e4681;
+        margin: auto;
+        color:white;
+        font-size: 13px;
+        font-weight: 400;
+        padding:13px 12px 32px;
+        font-family: 'Roboto Slab', serif;
+    }
+    .author{
+        margin-top:5px;
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .card p{
+        font-size: 14px;
+        line-height: 14.3px;
+    }
+    .card span{
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19.5px;
+    }
+    .part2-content-bottom{
+        width:90%;
+        margin-top:90px;
+    }
+}
