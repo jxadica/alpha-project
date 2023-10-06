@@ -1370,3 +1370,188 @@ body{
     }
 
 }
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 791px;
+    height: 451px;
+    margin: 34px 46px 0px 126px;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.25);
+ 
+ }
+ 
+ .image-container {
+    margin-top: 10px;
+ 
+ }
+ 
+ .sub-div {
+    
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 353px;
+    height: 90px;
+ }
+ .bottom-part {
+  display: flex;
+    align-items: center; 
+ } 
+ .statistics {
+    color: #000;
+    font-family: Roboto Slab;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.385%;
+    /* 55.762px */
+    width: 987px;
+    height: 93px;
+    margin-top: 91px;
+    margin-left: 122px;
+ 
+ }
+ 
+ .content-p {
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 30px */
+    width: 700px;
+    height: 203px;
+    margin-top: 40px;
+    margin-left: 45px;
+ }
+ 
+ .h-i {
+    width: 190px;
+    height: 169px;
+    margin-left: 26px;
+    margin-top: 10px;
+ 
+ }
+ 
+ .name {
+    color: #000;
+    font-family: Roboto Slab;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.385%;
+    /* 30.415px */
+    width: 353px;
+    height: 59px;
+    flex-shrink: 0;
+ }
+ 
+ .f-i {
+    width: 32px;
+    height: 31px;
+    flex-shrink: 0;
+ }
+ 
+ .image-container {
+    width: 190px;
+ height: 169px;
+ }
+ @media screen and (max-width: 1279px) and (min-width: 992px) {
+    .main-container {
+       width: 458.121px;
+       height: 261.204px;
+       border-radius: 17.375px;
+       box-shadow: 0.57917px 0.57917px 11.58333px 0px rgba(0, 0, 0, 0.25);
+    }
+    .statistics {
+       width: 571.638px;
+       height: 53.863px;
+       font-size: 32px;
+       margin-top: 52.7px;
+       margin-left: 70px;
+    }
+    .content-p {
+       width: 405.417px;
+       height: 117.571px;
+       font-size: 12px;
+       margin-top: 23px;
+       margin-left: 26px;
+    }
+    .h-i {
+       width: 110.042px;
+       height: 97.879px;
+       margin-left:15px;
+       margin-top: 5px;
+    }
+    .name {
+       width: 204.446px;
+       height: 34.171px;
+       font-size: 17px;
+    }
+    .f-i {
+       width: 18.533px;
+       height: 17.954px;
+    }
+    .image-container {
+       width: 110.042px;
+       height: 97.879px;
+ /*h-i ile eynni seyleri verirem*/
+    }
+    .sub-div {
+       margin-top: 10px;
+       margin-left: 17px;
+       width: 204px;
+       height: 52.3px;
+    }
+ }
+ @media screen and (max-width: 991px) and (min-width: 320px) {
+    .main-container {
+       width: 308px;
+       height: 248px;
+       border-radius: 13.979px;
+       box-shadow: 0.46597px 0.46597px 9.31944px 0px rgba(0, 0, 0, 0.25);
+    }
+    .statistics {
+       width: 257px;
+       height: 69px;
+       font-size: 26px;
+       margin-top: 52.7px;
+       margin-left: 131px;
+    }
+    .content-p {
+       width: 266px;
+       height: 111.01px;
+       font-size: 10px;
+       margin-top: 18px;
+       margin-left: 21px;
+    }
+    .h-i {
+       width: 80px;
+       height: 84px;
+       margin-left:12px;
+       margin-top: 0px;/*attention*/
+    }
+    .name {
+       width: 164.488px;
+       height: 32.729px;
+       font-size: 14px;
+    }
+    .f-i {
+       width: 14.911px;
+       height: 17.197px;
+    }
+    .image-container {
+       width: 80px;
+       height: 84px;
+ /*h-i ile eynni seyleri verirem*/
+    }
+    .sub-div {
+       margin-top: 10px;/*figmada ferqlidi*/
+       margin-left: 13px;
+       width: 164.488px;
+       height: 50.695px;
+    }
+ }
