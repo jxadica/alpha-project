@@ -1255,13 +1255,13 @@ section {
        height: 52.3px;
     }
  }
- @media screen and (max-width: 991px) and (min-width: 320px) {
+ @media screen and (max-width: 991px) and (min-width: 800px) {
     .main-container {
        width: 92%;
-       height: 310px;
+       height: 327px;
        border-radius: 13.979px;
        box-shadow: 0.46597px 0.46597px 9.31944px 0px rgba(0, 0, 0, 0.25);
-       justify-content: space-between;
+       /* justify-content: space-between; */
     }
     .statistics {
        width: 70%;
@@ -1270,22 +1270,23 @@ section {
        margin-bottom: 2%;
     }
     .bottom-part{
-        margin-top: 10px;
-        width:60%;
+        margin-top: 15px;
+        width:54%;
         margin-bottom: 15px;
     }
     .content-p {
        width: 92%;
-       height: 117px;
+       height: 144px;
        font-size: 18px;
        margin-top: 18px;
        margin-left: 21px;
     }
     .h-i {
-       width: 100px;
-       height: 95px;
+       width: 193px;
+       height: 125px;
        margin-left:12px;
        margin-top: 0px;
+      
     }
     .name {
        width: 200px;
@@ -1298,7 +1299,7 @@ section {
     }
     .image-container {
        width: 80px;
-       height: 84px;
+       height: 115px;
     }
     .sub-div {
        margin-top: 10px;
@@ -1307,15 +1308,73 @@ section {
        height: 50.695px;
     }
  }
- @media screen and (max-width: 720px) and (min-width: 320px){
+ @media screen and (max-width:800px) and (min-width:720px) {
     .main-container {
-        height: 355px;
+        width: 610px;
+        height: 352px;
+        /* border-radius: 13.979px;
+        box-shadow: 0.46597px 0.46597px 9.31944px 0px rgba(0, 0, 0, 0.25); */
+        /* justify-content: space-between; */
+     }
+     .statistics {
+        width: 70%;
+        height: 69px;
+        font-size: 26px;
+        margin-bottom: 2%;
+     }
+     .bottom-part{
+         margin-top: 0px;
+         width: 65%;
+         margin-bottom: 15px;
+     }
+     .content-p {
+        width: 549px;
+        height: 189px;
+        font-size: 18px;
+        margin-top: 18px;
+        margin-left: 21px;
+     }
+     .h-i {
+        width: 157px;
+        height: 125px;
+        margin-left:12px;
+        margin-top: 0px;
+       
+     }
+     .name {
+        width: 258px;
+        height: 45px;
+        font-size: 24px;
+     }
+     .f-i {
+        width: 25px;
+        height: 25px;
+     }
+     .image-container {
+        width: 80px;
+        height: 115px;
+     }
+     .sub-div {
+        margin-top: 10px;
+        margin-left: 11px;
+        width: 164.488px;
+        width:50%;
+        height: 50.695px;
+     }
+  }
+ 
+ @media screen and (max-width: 720px) and (min-width: 490px){
+    .main-container {
+        height: 90%;
+        width: 100%;
      }
     .statistics {
         font-size: 24px;
      }
      .content-p {
         font-size: 17px;
+        width: 85%;
+        height: 80%;
      }
      .h-i {
         width: 85px;
@@ -1324,24 +1383,39 @@ section {
      }
      .name {
         width: 200px;
-        height: 30px;
+        height: 19px;
         font-size: 16px;
+     }
+     .f-i {
+        width: 23px;
+     }
+     .sub-div {
+        margin-left: 0px;
+     }
+     .image-container {
+        height: 148px;
      }
  }
  @media screen and (max-width: 490px) and (min-width: 320px){
     .main-container {
-        height: 400px;
+        height: 90%;
+        width: 100%;
      }
     .statistics {
         font-size: 22px;
      }
      .content-p {
         font-size: 15px;
+        width: 80%;
      }
      .h-i {
         width: 70px;
         height: 70px;
         margin-top: 8px;
+     }
+     .f-i {
+        width: 22px;
+        height: 24px;
      }
      .name {
         width: 150px;
@@ -1350,19 +1424,38 @@ section {
      }
      .bottom-part{
         margin-bottom: 8px;
-        margin-top: 20px;
+        margin-top: 45px;
+     }
+     .image-container {
+        width: 100px;
+        height: 100px;
+     }
+     .sub-div {
+        height: 56px;
      }
  }
- @media screen and (max-width: 355px) and (min-width: 320px){
+ @media screen and (max-width: 390px) and (min-width: 320px){
+    .statistics {
+        width: 100%;
+    }
     .main-container {
         width: 94%;
         height: 450px;
      }
      .content-p{
-        width: 90%;
+        width: 77%;
+        font-size: 13px;
+        height: 100%;
      }
-
+     .bottom-part {
+        margin-top: 0px;
+     }
+.sub-div {
+    margin-left: 13px;
+}
  }
+
+
 
  /*leman*/
  .lmain-container{
