@@ -1628,10 +1628,12 @@ section {
     padding-top: 42px;
     }
     .lbig{
+        width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin-bottom: 50px;
+        flex-wrap: wrap;
     }
     .lphone{
         display: flex;
@@ -1653,6 +1655,11 @@ section {
     }
     .right1{
         height: 200px;
+        width: 35%;
+        text-align: end;
+    }
+    .lleft1{
+        width: 55%;
     }
     @media  screen and (max-width:1279px) and (min-width:992px) {
         .lbig{
@@ -1660,32 +1667,41 @@ section {
             justify-content: space-between;
             align-items: flex-start;
             margin-bottom: 50px;
+            padding-top: 40px;
         }
         .lleft1{
             flex-grow: 1;
+            width: 55%;
+            margin-left: 15px;
         }
         .right1{
             margin-left: 20px;
             margin-top: 20px;
             height: auto;
+            width: 35%;
+        }
+        .llast{
+            width: 85%;
+            height: 19px;
+            /* margin-left: 50px; */
+            margin-top:0px;
+            padding: 0;
+            font-size: 16px;
+            text-align: start;
         }
         .llogo{
             width: 66px;
             height: 39px;
             margin-top: 29px;
-            margin-left: 70px;
             margin-bottom: 0px;
         }
         .lphotos img{
             width: 19px;
             height: 19px;
             margin-right: 10px;
-        margin-top: 17px;
-        margin-bottom: 85px;
+            margin-top: 17px;
+            margin-bottom: 85px;
         
-        }
-        .linstagram {
-            margin-left: 70px;
         }
         .lphone img{
             width: 15px;
@@ -1716,10 +1732,14 @@ section {
             font-size: 14px;
         }
         .llast{
-            width: 200px;
-            height: 23px;
-            margin-bottom: 13px;
-            margin-left: 70px;
+            width: 85%;
+            height: 19px;
+            /* margin-left: 50px; */
+            margin-top:0px;
+            padding: 0;
+            font-size: 16px;
+            text-align: start;
+            padding-left: 15px;
         }
         .footer{
             width: 100%;
