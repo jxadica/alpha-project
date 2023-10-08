@@ -1370,22 +1370,26 @@ body{
     }
 
 }
-
+/* <-----> */
+.course-statistics{
+    background-color: #EFEFEF
+}
+.statistics-container{
+    width:85%;
+    margin:auto;
+    padding: 90px 0;
+}
 .main-container {
     display: flex;
     flex-direction: column;
     width: 791px;
     height: 451px;
-    margin: 34px 46px 0px 126px;
     border-radius: 30px;
-    background: #FFF;
     box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.25);
- 
  }
  
  .image-container {
     margin-top: 10px;
- 
  }
  
  .sub-div {
@@ -1396,8 +1400,10 @@ body{
     height: 90px;
  }
  .bottom-part {
-  display: flex;
+    display: flex;
     align-items: center; 
+    justify-content: space-between;
+    width: 75%; 
  } 
  .statistics {
     color: #000;
@@ -1409,8 +1415,6 @@ body{
     /* 55.762px */
     width: 987px;
     height: 93px;
-    margin-top: 91px;
-    margin-left: 122px;
  
  }
  
@@ -1459,24 +1463,23 @@ body{
     width: 190px;
  height: 169px;
  }
- @media screen and (max-width: 1279px) and (min-width: 992px) {
+ @media screen and (max-width: 1280px) and (min-width: 992px) {
     .main-container {
-       width: 458.121px;
-       height: 261.204px;
+       width: 65%;
+       height: 300px;
        border-radius: 17.375px;
        box-shadow: 0.57917px 0.57917px 11.58333px 0px rgba(0, 0, 0, 0.25);
+       justify-content: space-between;
     }
     .statistics {
-       width: 571.638px;
+       width: 590.638px;
        height: 53.863px;
-       font-size: 32px;
-       margin-top: 52.7px;
-       margin-left: 70px;
+       font-size: 36px;
     }
     .content-p {
-       width: 405.417px;
+       width: 91%;
        height: 117.571px;
-       font-size: 12px;
+       font-size: 17px;
        margin-top: 23px;
        margin-left: 26px;
     }
@@ -1484,16 +1487,21 @@ body{
        width: 110.042px;
        height: 97.879px;
        margin-left:15px;
-       margin-top: 5px;
+    }
+    .bottom-part{
+        margin-top: 10px;
+        justify-content: space-between;
+        width:60%;
+        margin-bottom: 10px;
     }
     .name {
        width: 204.446px;
        height: 34.171px;
-       font-size: 17px;
+       font-size: 19px;
     }
     .f-i {
-       width: 18.533px;
-       height: 17.954px;
+       width: 25px;
+       height: 25px;
     }
     .image-container {
        width: 110.042px;
@@ -1509,39 +1517,44 @@ body{
  }
  @media screen and (max-width: 991px) and (min-width: 320px) {
     .main-container {
-       width: 308px;
-       height: 248px;
+       width: 92%;
+       height: 310px;
        border-radius: 13.979px;
        box-shadow: 0.46597px 0.46597px 9.31944px 0px rgba(0, 0, 0, 0.25);
+       justify-content: space-between;
     }
     .statistics {
-       width: 257px;
+       width: 70%;
        height: 69px;
        font-size: 26px;
-       margin-top: 52.7px;
-       margin-left: 131px;
+       margin-bottom: 2%;
+    }
+    .bottom-part{
+        margin-top: 10px;
+        width:60%;
+        margin-bottom: 15px;
     }
     .content-p {
-       width: 266px;
-       height: 111.01px;
-       font-size: 10px;
+       width: 92%;
+       height: 117px;
+       font-size: 18px;
        margin-top: 18px;
        margin-left: 21px;
     }
     .h-i {
-       width: 80px;
-       height: 84px;
+       width: 100px;
+       height: 95px;
        margin-left:12px;
        margin-top: 0px;/*attention*/
     }
     .name {
-       width: 164.488px;
+       width: 200px;
        height: 32.729px;
-       font-size: 14px;
+       font-size: 17px;
     }
     .f-i {
-       width: 14.911px;
-       height: 17.197px;
+       width: 25px;
+       height: 25px;
     }
     .image-container {
        width: 80px;
@@ -1550,11 +1563,69 @@ body{
     }
     .sub-div {
        margin-top: 10px;/*figmada ferqlidi*/
-       margin-left: 13px;
+       /* margin-left: 13px; */
        width: 164.488px;
+       width:50%;
        height: 50.695px;
     }
  }
+ @media screen and (max-width: 720px) and (min-width: 320px){
+    .main-container {
+        height: 355px;
+     }
+    .statistics {
+        font-size: 24px;
+     }
+     .content-p {
+        font-size: 17px;
+     }
+     .h-i {
+        width: 85px;
+        height: 85px;
+        margin-top: 8px;/*attention*/
+     }
+     .name {
+        width: 200px;
+        height: 30px;
+        font-size: 16px;
+     }
+ }
+ @media screen and (max-width: 490px) and (min-width: 320px){
+    .main-container {
+        height: 400px;
+     }
+    .statistics {
+        font-size: 22px;
+     }
+     .content-p {
+        font-size: 15px;
+     }
+     .h-i {
+        width: 70px;
+        height: 70px;
+        margin-top: 8px;/*attention*/
+     }
+     .name {
+        width: 200px;
+        height: 20px;
+        font-size: 13px;
+     }
+     .bottom-part{
+        margin-bottom: 8px;
+        margin-top: 20px;
+     }
+ }
+ @media screen and (max-width: 355px) and (min-width: 320px){
+    .main-container {
+        width: 94%;
+        height: 450px;
+     }
+     .content-p{
+        width: 90%;
+     }
+
+ }
+
  /*leman*/
  .lmain{
     width:auto;
