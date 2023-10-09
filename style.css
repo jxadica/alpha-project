@@ -1370,6 +1370,7 @@ section {
      }
     .statistics {
         font-size: 24px;
+        width: fit-content;
      }
      .content-p {
         font-size: 17px;
@@ -1403,6 +1404,7 @@ section {
      }
     .statistics {
         font-size: 22px;
+        width: fit-content;
      }
      .content-p {
         font-size: 15px;
